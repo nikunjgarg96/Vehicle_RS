@@ -1,0 +1,12 @@
+
+
+<div class="card-deck margin">
+    
+      <div class="ml-5 mr-5" *ngFor="let item of vehicleItem">
+        <app-item-info [vehicleItem]="item" (deleteVehicleClicked)="deleteVehicle($event)"></app-item-info>
+      </div>
+    
+</div>
+  
+
+ 

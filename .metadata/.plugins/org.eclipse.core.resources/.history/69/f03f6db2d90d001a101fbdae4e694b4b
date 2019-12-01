@@ -1,0 +1,5 @@
+package com.cognizant.Vehicle_RS.repository;
+
+public interface user_repository {
+
+}

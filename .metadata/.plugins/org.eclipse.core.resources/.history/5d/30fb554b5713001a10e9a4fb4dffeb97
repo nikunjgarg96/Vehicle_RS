@@ -1,0 +1,33 @@
+package com.cognizant.Vehicle_RS;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.cognizant.Vehicle_RS.service.AppUserDetailsService;
+import com.cognizant.Vehicle_RS.service.BookingService;
+import com.cognizant.Vehicle_RS.service.VehicleService;
+
+import org.junit.Assert;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class VehicleRsApplicationTests {
+	
+	@Autowired
+	private VehicleService vehicleService;
+	
+	@Autowired
+	private BookingService bookingService;
+	
+	@Autowired
+	private AppUserDetailsService appUserDetailsService;
+
+	@Test
+	public void contextLoads() {
+	}
+
+
+}

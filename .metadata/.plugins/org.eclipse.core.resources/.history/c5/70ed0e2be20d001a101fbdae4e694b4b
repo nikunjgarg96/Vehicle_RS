@@ -1,0 +1,16 @@
+package com.cognizant.Vehicle_RS.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cognizant.Vehicle_RS.model.User;
+
+@RestController
+@RequestMapping("/users")
+public class User_controller {
+	
+	
+
+	
+}

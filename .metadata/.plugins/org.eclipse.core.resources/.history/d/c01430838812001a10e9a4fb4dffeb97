@@ -1,0 +1,15 @@
+package com.cognizant.Vehicle_RS.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+
+import com.cognizant.Vehicle_RS.model.Vehicle;
+
+public interface VehicleRepository extends CrudRepository<Vehicle, Integer> {
+	
+	@Query(value="Select * from vehicle where vh_active = 1 AND vh_insurance_exp_date >= CURRENT_DATE()",nativeQuery=true)
+	List<Vehicle> getAllCustomerVehicle();
+
+}

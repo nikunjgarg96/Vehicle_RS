@@ -1,0 +1,54 @@
+package com.cognizant.Vehicle_RS.model;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="vehicle")
+public class Vehicle {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "vh_id")
+	private int id;
+
+	@Column(name = "vh_name")
+	private String name;
+
+	@Column(name = "vh_image")
+	private String image;
+
+	@Column(name = "vh_vehicle_no")
+	private String vehicle_no;
+
+	@Column(name = "vh_seater")
+	private String seater;
+
+	@Column(name = "vh_type")
+	private String type;
+
+	@Column(name = "vh_price")
+	private String price;
+
+	@Column(name = "vh_active")
+	private boolean active;
+
+	@Column(name = "vh_branch")
+	private String branch;
+
+	@Column(name = "vh_insurance_exp_date")
+	private Date insurance_exp_date;
+
+	@Column(name = "vh_last_service_date")
+	private Date last_service_date;
+
+	@Column(name = "vh_service_due_date")
+	private Date service_due_date;
+
+}

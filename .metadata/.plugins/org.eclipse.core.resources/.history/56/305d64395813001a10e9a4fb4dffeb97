@@ -1,0 +1,37 @@
+package com.cognizant.Vehicle_RS;
+
+import java.util.Date;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.cognizant.Vehicle_RS.model.Vehicle;
+import com.cognizant.Vehicle_RS.service.AppUserDetailsService;
+import com.cognizant.Vehicle_RS.service.BookingService;
+import com.cognizant.Vehicle_RS.service.VehicleService;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class VehicleRsApplicationTests {
+	
+	@Autowired
+	private VehicleService vehicleService;
+	
+	@Autowired
+	private BookingService bookingService;
+	
+	@Autowired
+	private AppUserDetailsService appUserDetailsService;
+
+	@Test
+	public void getVehicleByIdTEST(){
+		
+		Vehicle vehicle= new Vehicle(1, "Merc AMG", "hello", "ASDFGHJK", 2, "petrol", 356, true, "VD", new Date("2019-02-02"), new Date("2019-02-02"), new Date("2019-02-02"), false)		
+		
+	}
+
+
+}

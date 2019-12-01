@@ -1,0 +1,12 @@
+package com.cognizant.Vehicle_RS.service;
+
+import com.cognizant.Vehicle_RS.model.Booking;
+
+public class BookingService {
+
+	public Booking addVehicleToBooking(String username, int vehicleID, Booking booking) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.cognizant.Vehicle_RS.model;
+
+public class Vehicle {
+
+}

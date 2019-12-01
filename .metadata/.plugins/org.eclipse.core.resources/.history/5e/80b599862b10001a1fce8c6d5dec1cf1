@@ -1,0 +1,42 @@
+package com.cognizant.Vehicle_RS.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cognizant.Vehicle_RS.model.Booking;
+import com.cognizant.Vehicle_RS.model.User;
+import com.cognizant.Vehicle_RS.model.Vehicle;
+import com.cognizant.Vehicle_RS.repository.UserRepository;
+import com.cognizant.Vehicle_RS.service.BookingService;
+
+@RestController
+@RequestMapping("/booking")
+public class BookingController {
+	
+	@Autowired
+	private BookingService bookingService;
+	@Autowired
+	private UserRepository repo;
+	
+	
+	@PostMapping("/{username}/{vehicleID}")
+	public Booking addVehicleToBooking(@PathVariable String username, @PathVariable int vehicleID, @RequestBody Booking booking){
+		
+		
+		return bookingService.addVehicleToBooking(username,vehicleID,booking);
+	}
+	@GetMapping("/{username}")
+	public Booking viewBooking(@PathVariable String username){
+		
+//		 Vehicle vehicle = bookingService.viewBooking(username);
+		User u= repo.findByUsername(username);
+		Booking boo= u.getBooking();
+		Vehicle veh = boo.getVehicle();
+		return null;
+	}
+}

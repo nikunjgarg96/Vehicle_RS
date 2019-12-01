@@ -1,0 +1,10 @@
+package com.cognizant.moviecruiser.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.cognizant.moviecruiser.model.Role;
+
+
+public interface RoleRepository extends CrudRepository<Role, Integer> {
+
+}

@@ -1,0 +1,14 @@
+package com.cognizant.Vehicle_RS.repository;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+
+import com.cognizant.Vehicle_RS.model.Booking;
+import com.cognizant.Vehicle_RS.model.Vehicle;
+
+public interface BookingRepository extends CrudRepository<Booking, Integer> {
+//
+//	@Query(name="SELECT us.vehicle FROM User us WHERE us.username=?1; ")
+//	Vehicle getUserVehicle(String username);
+
+}

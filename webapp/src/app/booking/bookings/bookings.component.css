@@ -1,0 +1,195 @@
+.material-icons.md-36 {
+	font-size: 36px;
+	vertical-align: middle;
+}
+
+.material-icons.md-30 {
+	vertical-align: middle;
+}
+
+.material-icons.md-31 {
+	vertical-align: bottom;
+}
+
+.material-icons.md-10 {
+	vertical-align: middle;
+	font-size: 18px;
+	padding-right: 3px;
+}
+
+.text-color {
+	color: #b52e06;
+}
+
+.launch-size {
+	font-size: 15px;
+	color: #808080;
+}
+
+.trim {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.margin {
+	margin-bottom: 50px;
+}
+
+.heading {
+	padding: 10px;
+}
+
+.md-15 {
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+.md-20 {
+	margin-left: 11px;
+	margin-right: 11px;
+}
+
+.grey {
+	color: #808080;
+}
+
+.search-image {
+	height: auto;
+	width: 100%;
+	background-image:
+		url("https://images.unsplash.com/photo-1512149074996-e923ac45be6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.input-group-text.green {
+	background-color: #3b5684;
+	border: 0px;
+}
+
+.invalid-feedback.md-6 {
+	display: block;
+}
+
+.navbar-bg {
+	background: linear-gradient(to right, #373b44, #4286f4);
+}
+
+.red:hover {
+	color: red;
+}
+
+.btn.btn-blue, .btn.btn-blue:hover, .btn.btn-blue:active, .btn.btn-blue:link
+	{
+	background-color: #263139;
+	border-color: #263139;
+	color: #ffffff;
+}
+.design
+{
+	cursor:pointer;
+}
+
+
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  .row {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	margin: 0 -16px;
+  }
+  
+  .col-25 {
+	-ms-flex: 25%; /* IE10 */
+	flex: 25%;
+  }
+  
+  .col-50 {
+	-ms-flex: 50%; /* IE10 */
+	flex: 50%;
+  }
+  
+  .col-75 {
+	-ms-flex: 75%; /* IE10 */
+	flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+	padding: 0 16px;
+  }
+  
+  .container {
+	background-color: #f2f2f2;
+	padding: 5px 20px 15px 20px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+  }
+  
+  input[type=text] {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+  }
+  
+  label {
+	margin-bottom: 10px;
+	display: block;
+  }
+  
+  .icon-container {
+	margin-bottom: 20px;
+	padding: 7px 0;
+	font-size: 24px;
+  }
+  
+  .btn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px;
+	margin: 10px 0;
+	border: none;
+	width: 100%;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 17px;
+  }
+  
+  .btn:hover {
+	background-color: #45a049;
+  }
+  
+  a {
+	color: #2196F3;
+  }
+  
+  hr {
+	border: 1px solid lightgrey;
+  }
+  
+  span.price {
+	float: right;
+	color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+	.row {
+	  flex-direction: column-reverse;
+	}
+	.col-25 {
+	  margin-bottom: 20px;
+	}
+  }
+

@@ -1,0 +1,22 @@
+package com.cognizant.Vehicle_RS.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cognizant.Vehicle_RS.model.Vehicle;
+import com.cognizant.Vehicle_RS.repository.VehicleRepository;
+
+@Service
+public class VehicleService {
+
+	@Autowired
+	private VehicleRepository vehicleRepository;
+	public Vehicle getAllVehicle() {
+		
+		return (Vehicle) vehicleRepository.findAll();
+		
+	}
+	
+	
+
+}

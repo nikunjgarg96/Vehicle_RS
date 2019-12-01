@@ -1,0 +1,33 @@
+package com.cognizant.Vehicle_RS.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.cognizant.Vehicle_RS.model.Booking;
+import com.cognizant.Vehicle_RS.model.User;
+import com.cognizant.Vehicle_RS.model.Vehicle;
+import com.cognizant.Vehicle_RS.repository.BookingRepository;
+import com.cognizant.Vehicle_RS.repository.UserRepository;
+import com.cognizant.Vehicle_RS.repository.VehicleRepository;
+
+@Service
+public class BookingService {
+	
+	@Autowired
+	private BookingRepository bookingRepository;
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Autowired
+	private VehicleRepository vehicleRepository;
+
+	public Booking addVehicleToBooking(String username, int vehicleID, Booking booking) {
+		User user = userRepository.findByUsername(username);
+		Optional<Vehicle> result = vehicleRepository.findById(vehicleID);
+		return null;
+	}
+
+}

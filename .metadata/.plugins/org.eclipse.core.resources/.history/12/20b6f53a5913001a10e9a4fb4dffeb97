@@ -1,0 +1,48 @@
+package com.cognizant.Vehicle_RS;
+
+import java.util.Date;
+import java.util.Optional;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.cognizant.Vehicle_RS.model.Vehicle;
+import com.cognizant.Vehicle_RS.repository.VehicleRepository;
+import com.cognizant.Vehicle_RS.service.AppUserDetailsService;
+import com.cognizant.Vehicle_RS.service.BookingService;
+import com.cognizant.Vehicle_RS.service.VehicleService;
+
+import junit.framework.Assert;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class VehicleRsApplicationTests {
+	
+	@Autowired
+	private VehicleService vehicleService;
+	
+	@Autowired
+	private BookingService bookingService;
+	
+	@Autowired
+	private AppUserDetailsService appUserDetailsService;
+	
+	@Autowired
+	private VehicleRepository vehicleRepository;
+
+	@Test
+	public void getVehicleByIdTEST(){
+		
+		Vehicle vehicle= new Vehicle(35, "Merc AMG", "hello", "ASDFGHJK","2", "petrol", 356, true, "VD", new Date("2019-02-02"), new Date("2019-02-02"), new Date("2019-02-02"), false);
+		vehicleService.newVehicle(vehicle);
+		Optional<Vehicle> result=vehicleRepository.findById(35);
+		Assert.assertEquals(result.isPresent(), true);
+		
+		
+	}
+
+
+}

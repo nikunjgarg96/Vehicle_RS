@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="VehicleRsApplicationTests" project="Vehicle_RS" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.cognizant.Vehicle_RS.VehicleRsApplicationTests" time="1.867">
+    <testcase name="addNewBookingTest" classname="com.cognizant.Vehicle_RS.VehicleRsApplicationTests" time="1.087"/>
+    <testcase name="getAllVehicleTest" classname="com.cognizant.Vehicle_RS.VehicleRsApplicationTests" time="0.257"/>
+    <testcase name="addVehicleTest" classname="com.cognizant.Vehicle_RS.VehicleRsApplicationTests" time="0.079"/>
+    <testcase name="aamodifyVehicleTest" classname="com.cognizant.Vehicle_RS.VehicleRsApplicationTests" time="0.282"/>
+    <testcase name="cancelBookingTest" classname="com.cognizant.Vehicle_RS.VehicleRsApplicationTests" time="0.162"/>
+  </testsuite>
+</testrun>

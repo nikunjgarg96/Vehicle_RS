@@ -1,0 +1,133 @@
+<h2 class="heading ">Booking Details</h2>
+<div class="row  ml-2 mr-2 " *ngIf="bookingsService.bookingsEmpty">
+
+	<div class="col-lg-9   mx-auto">
+
+		<div class="alert alert-danger">No item in Bookings. Use 'Book Now' option in <a class="list"
+				routerLink="/search-bar">Vehicle</a>.</div>
+
+	</div>
+
+
+</div>
+
+<div class="row list-group ml-2 mr-2 " *ngIf="!bookingsService.bookingsEmpty">
+
+	<div class="col-lg-9 list-group-item  mx-auto">
+		<div class="row">
+			<div class=col-3>
+				<h4 class="grey">{{bookingsService.bookings.vehicle.name}}</h4>
+			</div>
+			<div class="col-3">
+				<h6>Booking Start Date</h6>
+				<p>{{bookingsService.bookings.bookingStart| date:'mediumDate'}}</p>
+			</div>
+			<div class="col-3">
+				<h6>Booking End Date</h6>
+				<p>{{bookingsService.bookings.bookingEnd| date:'mediumDate'}}</p>
+			</div>
+			<div class="ml-auto">
+				<button type="button" class="btn btn-danger"
+					(click)="this.vehicleService.removeFromBookings(bookingsService.bookings.vehicle.id)"> <i
+						class="material-icons md-30 white "> delete_forever </i>Cancel Booking
+				</button>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="col-lg-9 list-group-item  mx-auto " *ngIf="!buttonClicked">
+		<div class="row">
+			<div class="col-8">
+				<h3>Total Cost of Booking</h3>
+			</div>
+
+			<div class=" ml-auto">
+				<h5 class="text-color"> {{bookingsService.bookings.price | currency:'USD'}}</h5>
+			</div>
+			<div class="ml-auto">
+			</div>
+		</div>
+
+	</div>
+	<div class="col-lg-9 list-group-item  mx-auto " *ngIf="buttonClicked">
+		<div class="row">
+			<div class="col-4">
+				<h5>Thank You! <br />Total Amount Paid: </h5>
+			</div>
+			<div class=" ml-auto">
+				<h5 class="text-color"> {{bookingsService.bookings.price | currency:'USD'}}</h5>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+
+<!-- Billing Page -->
+
+<div *ngIf="!bookingsService.bookingsEmpty">
+<div class="row mt-4 mb-4" *ngIf="!buttonClicked">
+	<div class="col-75">
+		<div class="container">
+			<form>
+
+				<div class="row">
+					<div class="col-50">
+						<h3>Billing Address</h3>
+						<label for="fname"><i class="fa fa-user"></i> Full Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Full Name">
+						<label for="email"><i class="fa fa-envelope"></i> Email</label>
+						<input type="text" id="email" name="email" placeholder="Email Address">
+						<label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+						<input type="text" id="adr" name="address" placeholder="Address">
+						<label for="city"><i class="fa fa-institution"></i> City</label>
+						<input type="text" id="city" name="city" placeholder="City">
+
+						<div class="row">
+							<div class="col-50">
+								<label for="state">State</label>
+								<input type="text" id="state" name="state" placeholder="State">
+							</div>
+							<div class="col-50">
+								<label for="zip">Zip</label>
+								<input type="text" id="zip" name="zip" placeholder="Pin Code">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-50">
+						<h3>Payment</h3>
+						<label for="cname">Promo Code</label>
+						<input type="text" id="promo" name="pro,o" placeholder="Enter Promo code if any">
+
+						<label for="cname">Name on Card</label>
+						<input type="text" id="cname" name="cardname" placeholder="Name">
+						<label for="ccnum">Credit card number</label>
+						<input type="text" id="ccnum" name="cardnumber" placeholder="Card Number">
+						<label for="expmonth">Exp Month</label>
+						<input type="text" id="expmonth" name="expmonth" placeholder="Exp Month">
+						<div class="row">
+							<div class="col-50">
+								<label for="expyear">Exp Year</label>
+								<input type="text" id="expyear" name="expyear" placeholder="Exp Year">
+							</div>
+							<div class="col-50">
+								<label for="cvv">CVV</label>
+								<input type="text" id="cvv" name="cvv" placeholder="CVV">
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<label>
+					<input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+				</label>
+				<button type="button" class="btn btn-success" (click)="paybutton()">Pay Now!
+				</button>
+			</form>
+		</div>
+	</div>
+</div>
+</div>

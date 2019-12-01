@@ -1,0 +1,52 @@
+package com.cognizant.Vehicle_RS.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "user")
+public class User {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "us_id")
+	private int id;
+
+	@Column(name = "us_emp_id")
+	private String employee_id;
+
+	@Column(name = "us_first_name")
+	private String firstname;
+
+	@Column(name = "us_last_name")
+	private String lastname;
+
+	@Column(name = "us_age")
+	private int age;
+
+	@Column(name = "us_gender")
+	private String gender;
+
+	@Column(name = "us_contact")
+	private int contact;
+
+	@Column(name = "us_email")
+	private String email;
+
+	@Column(name = "us_password")
+	private String password;
+
+	@Column(name = "us_branch")
+	private String branch;
+
+	@Column(name = "us_role")
+	private String role;
+
+	@Column(name = "us_approval")
+	private boolean approval;
+
+}

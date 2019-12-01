@@ -1,0 +1,9 @@
+package com.cognizant.Vehicle_RS.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.cognizant.Vehicle_RS.model.Vehicle;
+
+public interface vehicle_repository extends CrudRepository<Vehicle, Integer> {
+
+}

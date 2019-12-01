@@ -1,0 +1,9 @@
+package com.cognizant.Vehicle_RS.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@
+public class vehicle_controller {
+
+}

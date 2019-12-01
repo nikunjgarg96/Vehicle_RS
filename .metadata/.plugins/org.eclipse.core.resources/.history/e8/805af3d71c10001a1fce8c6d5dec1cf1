@@ -1,0 +1,15 @@
+package com.cognizant.Vehicle_RS.repository;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
+
+import com.cognizant.Vehicle_RS.model.Booking;
+import com.cognizant.Vehicle_RS.model.Vehicle;
+
+public interface BookingRepository extends CrudRepository<Booking, Integer> {
+
+	@Query(name="select * from booking bk join vehicle vh on bk.bk_vh_id = vh.vh_id  where  bk_us_id in (select us_id from user where us_emp_id= :username);",nativeQuery=true)
+	public Vehicle UserVehicle(@Param(value="username") String username);
+
+}

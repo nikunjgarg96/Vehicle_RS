@@ -1,6 +1,5 @@
 package com.cognizant.Vehicle_RS.service;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Optional;
 
@@ -61,6 +60,13 @@ public class BookingService {
 	
 		bookingRepository.delete(booking);
 		
+	}
+
+
+
+	public Booking viewBooking(String username) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

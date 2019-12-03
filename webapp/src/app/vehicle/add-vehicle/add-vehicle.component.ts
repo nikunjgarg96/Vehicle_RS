@@ -71,6 +71,7 @@ let newItem:vehicleItem={name:this.addform.value["name"],vehicle_no:this.addform
       branch:this.addform.value["branch"],insurance_exp_date:new Date(this.addform.value["in_exp_date"]),last_service_date:new Date(this.addform.value["last_serv_date"]),
       service_due_date:new Date(this.addform.value["serv_due_date"]),status:false};
   this.vehicleListService.addNewVehicle(newItem).subscribe(data=>{
+    alert("Vehicle added Successfully.")
     this.router.navigate(['search-bar'])
   })
 

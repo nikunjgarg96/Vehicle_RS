@@ -461,3 +461,21 @@ Caused by: org.eclipse.aether.transfer.ChecksumFailureException: Checksum valida
 
 !ENTRY org.eclipse.recommenders.models.rcp 1 0 2019-11-28 11:12:25.155
 !MESSAGE org.eclipse.recommenders:index::zip:0.0.0 could not be resolved from the model repositories. Are you offline?
+
+!ENTRY org.eclipse.jface.text 2 0 2019-12-02 12:16:49.566
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-12-02 12:16:49.663
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.net 1 0 2019-12-02 14:40:24.783
+!MESSAGE System property http.proxyHost is set to proxy.cognizant.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-12-02 14:40:24.793
+!MESSAGE System property http.proxyPort is set to 6050 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-12-02 14:40:24.794
+!MESSAGE System property https.proxyHost is set to proxy.cognizant.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-12-02 14:40:24.794
+!MESSAGE System property https.proxyPort is set to 6050 but should not be set.

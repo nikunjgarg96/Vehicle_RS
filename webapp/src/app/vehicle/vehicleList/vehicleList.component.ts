@@ -50,6 +50,7 @@ export class VehicleComponent implements OnInit {
   }
   deleteVehicle(id:number){
     this.vehicleListService.deleteVechile(id).subscribe(data=>{
+      alert("Vehicle Removed.")
       this.vehicleItem=data;
       // this.router.navigate(['search-bar'])
 

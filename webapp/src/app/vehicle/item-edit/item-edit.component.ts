@@ -95,6 +95,7 @@ export class ItemEditComponent implements OnInit {
       branch:this.form.value["branch"],insurance_exp_date:new Date(this.form.value["in_exp_date"]),last_service_date:new Date(this.form.value["last_serv_date"]),
       service_due_date:new Date(this.form.value["serv_due_date"])};
       this.vehicleListService.saveVehicle(newItem).subscribe(data=>{
+        alert("Vehicle Edited Successfully")
         this.router.navigate(['search-bar'])
       })
     

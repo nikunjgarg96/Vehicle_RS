@@ -46,7 +46,9 @@ export class VehicleServiceService {
 
   removeFromBookings(vehicleItemId:number){
     this.vehicleListService.deleteBookingsItem(vehicleItemId).subscribe(data=>{
+      alert("Booking Canceled. Refund will be Initiated Soon.")
       this.bookingsService.getAllBookings();
+
     })
   }
 

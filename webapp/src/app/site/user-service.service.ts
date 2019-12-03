@@ -19,7 +19,7 @@ export class UserServiceService {
 
   addUsers(user:User):Observable<any>{
 
-    return this.httpClient.post<User>(`${environment.baseUrl}`+'users',user);
+    return this.httpClient.post<User>(`${environment.baseUrl}`+'auth-service'+'/users',user);
 
    }
 
@@ -30,9 +30,11 @@ export class UserServiceService {
     gender:user['gender'],contact:user['contact'],email:user['email'],password:user['password'],branch:user['branch'],status:"P"}
     this.addUsers(newUser).subscribe(data=>{
       this.userExists=data;
-      if(data)
-      alert("Your details are submitted successfully");
+      if(data){
+        alert("Your details are submitted successfully");
         this.router.navigate(['login']);
+      }
+      
     },
     (error)=>{
       console.log(error);

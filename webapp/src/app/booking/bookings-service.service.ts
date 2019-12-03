@@ -18,7 +18,6 @@ export class BookingsServiceService {
   getAllBookings(){
     this.vehicleListService.getAllBookingsItems().subscribe(data=>{
       this.bookings=data;
-      console.log(data)
       if(this.bookings == null){
         this.bookingsEmpty=true;
       }

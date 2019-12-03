@@ -7,6 +7,7 @@ import { Observable } from 'rxjs';
 import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { VehicleListService } from '../vehicle/vehicleList/vehicle-list.service';
+import { User } from './signup/User';
 
 @Injectable({
   providedIn: 'root'
@@ -22,12 +23,15 @@ export class AuthServiceService {
   private token: string;
   error: string = "Login Failed";
   userStatus:boolean=false;
+  firstname:string;
+  lastname:string;
+  
 
   authenticateSpring(user:string,password:string):Observable<any> {
     let credentials = btoa(user+':'+password);
     let headers = new HttpHeaders();
     headers = headers.set('Authorization', 'Basic '+credentials)
-    return this.httpClient.get(`${environment.baseUrl}`+"authenticate", {headers})
+    return this.httpClient.get(`${environment.baseUrl}`+'auth-service'+"/authenticate", {headers})
   }
   public setToken(token: string) {
     this.vehicleListService.setToken(token);
@@ -42,8 +46,6 @@ export class AuthServiceService {
   constructor(private userService:UserServiceService,private vehicleService:VehicleServiceService,public router:Router,private bookingsService:BookingsServiceService,private httpClient:HttpClient,private vehicleListService:VehicleListService) { }
 
   authenticateUser(user) {
-  
-
     this.authenticateSpring(user.username,user.password).subscribe(
       (data)=>{
         if(data.token==null){
@@ -60,6 +62,8 @@ export class AuthServiceService {
           this.vehicleListService.userName=user.username;
           console.log(data.token);
           console.log(data);
+          this.firstname=data.firstname;
+          this.lastname=data.lastname;
   
           this.router.navigate(['search-bar']);
 

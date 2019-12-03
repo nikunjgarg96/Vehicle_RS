@@ -29,55 +29,55 @@ export class VehicleListService {
     // const headers = new HttpHeaders({ Authorization: 'Basic ' + btoa(username + ':' + password) });
      const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
 
-    return this.HttpClient.get<vehicleItem[]>(`${environment.baseUrl}`+'vehicle',{headers});
+    return this.HttpClient.get<vehicleItem[]>(`${environment.baseUrl}`+'vehicleRS-service/'+'vehicle',{headers});
 
   }
 
   getVehicle(id:number):Observable<any>{
     const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
 
-    return this.HttpClient.get<vehicleItem>(`${environment.baseUrl}`+'vehicle/'+id,{headers})
+    return this.HttpClient.get<vehicleItem>(`${environment.baseUrl}`+'vehicleRS-service/'+'vehicle/'+id,{headers})
 
   }
 
   deleteVechile(id:number):Observable<any>{
     const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
 
-    return this.HttpClient.delete<vehicleItem>(`${environment.baseUrl}`+'vehicle/'+id,{headers})
+    return this.HttpClient.delete<vehicleItem>(`${environment.baseUrl}`+'vehicleRS-service/'+'vehicle/'+id,{headers})
 
   }
 
   saveVehicle(vehicleItem:vehicleItem):Observable<any>{
     const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
-    return this.HttpClient.put<vehicleItem>(`${environment.baseUrl}`+'vehicle',vehicleItem,{headers})
+    return this.HttpClient.put<vehicleItem>(`${environment.baseUrl}`+'vehicleRS-service/'+'vehicle',vehicleItem,{headers})
   }
   addNewVehicle(vehicleItem:vehicleItem):Observable<any>{
     const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
-    return this.HttpClient.post<vehicleItem>(`${environment.baseUrl}`+'vehicle',vehicleItem,{headers})
+    return this.HttpClient.post<vehicleItem>(`${environment.baseUrl}`+'vehicleRS-service/'+'vehicle',vehicleItem,{headers})
   }
 
   addBookingsItem(vehicleItemId:number,booking:Booking):Observable<any>{
     const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
-    return this.HttpClient.post<vehicleItem>(`${environment.baseUrl}`+'booking/'+this.userName+'/'+vehicleItemId,booking,{headers})
+    return this.HttpClient.post<vehicleItem>(`${environment.baseUrl}`+'vehicleRS-service/'+'booking/'+this.userName+'/'+vehicleItemId,booking,{headers})
   }
 
   getAllBookingsItems():Observable<any>{
     const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
 
-    return this.HttpClient.get<vehicleItem>(`${environment.baseUrl}`+'booking/'+this.userName,{headers})
+    return this.HttpClient.get<vehicleItem>(`${environment.baseUrl}`+'vehicleRS-service/'+'booking/'+this.userName,{headers})
   }
 	deleteBookingsItem(vehicleItemId:number):Observable<any>{
     const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
-    return this.HttpClient.delete<vehicleItem>(`${environment.baseUrl}`+'booking/'+this.userName+'/'+vehicleItemId,{headers})
+    return this.HttpClient.delete<vehicleItem>(`${environment.baseUrl}`+'vehicleRS-service/'+'booking/'+this.userName+'/'+vehicleItemId,{headers})
   }
 
   getPendingData() : Observable<any>{
     const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
-    return this.HttpClient.get(`${environment.baseUrl}`+'users'+"/pendingRegistration", {headers});
+    return this.HttpClient.get(`${environment.baseUrl}`+'auth-service'+'/users'+"/pendingRegistration", {headers});
   }
   editUserData(user:User) : Observable<any>{
     const headers = new HttpHeaders({ Authorization: 'Bearer ' +  this.getToken()});
-    return this.HttpClient.post(`${environment.baseUrl}`+'users'+"/editPendingUserStatus", user, {headers});
+    return this.HttpClient.post(`${environment.baseUrl}`+'auth-service'+'/users'+"/editPendingUserStatus", user, {headers});
   }
 
 }

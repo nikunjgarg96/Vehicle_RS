@@ -1,0 +1,13 @@
+package com.cognizant.Vehicle_RSservice;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class VehicleRsServiceApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

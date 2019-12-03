@@ -19,7 +19,7 @@
                         <li class="nav-item  active " *ngIf="loggedIn() && !this.vehicleService.isAdmin"><a class="nav-link" routerLink="bookings/" >Bookings</a></li>
                         <li class="nav-item  active " *ngIf="this.vehicleService.isAdmin"><a class="nav-link" routerLink="addVehicle/" >Add Vehicle</a></li>
                         <li class="nav-item nav-link active" *ngIf="loggedIn()"><i
-                            class="material-icons md-30 ">person</i> {{this.vehicleListService.userName}}</li>
+                            class="material-icons md-30 ">person</i> {{this.authService.lastname}} ,{{this.authService.firstname}}</li>
 
                         <li class="nav-item active "  *ngIf="loggedIn()" (click)="this.authService.logout()"><a class="nav-link" routerLink="search-bar/">logout</a></li>
 
@@ -38,7 +38,7 @@
     </header>
 
     <router-outlet></router-outlet>
-    
+     
 
 
 

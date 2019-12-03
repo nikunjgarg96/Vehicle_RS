@@ -2373,3 +2373,382 @@ Caused by: org.eclipse.aether.transfer.ChecksumFailureException: Checksum valida
 2019-12-01 13:51:16,107 [Worker-910] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-12-01 13:51:16,108 [Worker-910] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-01 13:51:16,109 [Worker-910] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources
+2019-12-02 09:58:53,938 [Worker-1039] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 09:58:53,938 [Worker-1039] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 09:58:53,939 [Worker-1039] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 09:58:53,940 [Worker-1039] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 09:58:53,940 [Worker-1039] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources
+2019-12-02 10:44:54,397 [Worker-1062] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cognizant:zuul-gateway:0.0.1-SNAPSHOT @ C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\zuul-gateway\pom.xml.
+2019-12-02 10:45:05,491 [Worker-1062] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zuul-gateway/src/main/java
+2019-12-02 10:45:05,493 [Worker-1062] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zuul-gateway/src/main/resources
+2019-12-02 10:45:05,493 [Worker-1062] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /zuul-gateway/src/main/resources
+2019-12-02 10:45:05,494 [Worker-1062] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /zuul-gateway/src/test/java
+2019-12-02 10:45:06,020 [Worker-1062] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 21 sec
+2019-12-02 10:45:08,547 [Worker-1065] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cognizant:eureka-discovery-server:0.0.1-SNAPSHOT @ C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\eureka-discovery-server\pom.xml.
+2019-12-02 10:45:11,715 [Worker-1065] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-discovery-server/src/main/java
+2019-12-02 10:45:11,716 [Worker-1065] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-discovery-server/src/main/resources
+2019-12-02 10:45:11,716 [Worker-1065] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-discovery-server/src/main/resources
+2019-12-02 10:45:11,717 [Worker-1065] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-discovery-server/src/test/java
+2019-12-02 10:45:14,295 [Worker-1065] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2019-12-02 10:45:26,539 [Worker-1062] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cognizant:authentication-service:0.0.1-SNAPSHOT @ C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\pom.xml.
+2019-12-02 10:45:36,947 [Worker-1062] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /authentication-service/src/main/java
+2019-12-02 10:45:36,947 [Worker-1062] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /authentication-service/src/main/resources
+2019-12-02 10:45:36,955 [Worker-1062] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /authentication-service/src/main/resources
+2019-12-02 10:45:36,966 [Worker-1062] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /authentication-service/src/test/java
+2019-12-02 10:45:38,378 [Worker-1062] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 23 sec
+2019-12-02 10:45:40,021 [Worker-1063] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cognizant:Vehicle_RS-service:0.0.1-SNAPSHOT @ C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\pom.xml.
+2019-12-02 10:45:42,366 [Worker-1063] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Vehicle_RS-service/src/main/java
+2019-12-02 10:45:42,367 [Worker-1063] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Vehicle_RS-service/src/main/resources
+2019-12-02 10:45:42,379 [Worker-1063] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Vehicle_RS-service/src/main/resources
+2019-12-02 10:45:42,389 [Worker-1063] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Vehicle_RS-service/src/test/java
+2019-12-02 10:45:43,112 [Worker-1063] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2019-12-02 10:45:45,419 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:45:45,419 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:45:45,450 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:45:45,453 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:45:45,454 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 10:45:45,828 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:45:45,828 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:45:45,830 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:45:45,832 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:45:45,832 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:45:47,362 [Worker-1065] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:45:47,364 [Worker-1065] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:45:47,418 [Worker-1065] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:45:47,421 [Worker-1065] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:45:47,421 [Worker-1065] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\eureka-discovery-server\src\test\resources
+2019-12-02 10:45:50,711 [Worker-1066] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:45:50,711 [Worker-1066] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:45:50,724 [Worker-1066] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:45:50,726 [Worker-1066] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:45:50,726 [Worker-1066] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\zuul-gateway\src\test\resources
+2019-12-02 10:51:41,103 [Worker-1070] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:51:41,105 [Worker-1070] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:51:41,109 [Worker-1070] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:51:41,113 [Worker-1070] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:51:41,113 [Worker-1070] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:51:52,901 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:51:52,901 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:51:52,902 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:51:52,904 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:51:52,904 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:51:56,620 [Worker-1068] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:51:56,621 [Worker-1068] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:51:56,623 [Worker-1068] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:51:56,625 [Worker-1068] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:51:56,625 [Worker-1068] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:52:10,971 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:10,972 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:52:10,973 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:52:10,976 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:10,976 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:52:18,893 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:18,894 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:52:18,895 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:52:18,897 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:18,897 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:52:28,635 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:28,635 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:52:28,637 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:52:28,640 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:28,641 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:52:46,576 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:46,577 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:52:46,578 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:52:46,581 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:46,581 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:52:56,723 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:56,724 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:52:56,725 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:52:56,726 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:52:56,726 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:53:04,572 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:04,572 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:53:04,574 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:53:04,576 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:04,576 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:53:10,983 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:10,983 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:53:10,984 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:53:10,986 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:10,986 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:53:21,461 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:21,462 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:53:21,465 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:53:21,467 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:21,467 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:53:30,097 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:30,098 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:53:30,099 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:53:30,101 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:30,102 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:53:46,182 [Worker-1069] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:46,182 [Worker-1069] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:53:46,182 [Worker-1069] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:53:46,183 [Worker-1069] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:53:46,183 [Worker-1069] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 10:54:58,066 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:54:58,067 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 10:54:58,070 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 10:54:58,072 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 10:54:58,072 [Worker-1072] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:01:54,283 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:01:54,294 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:01:54,334 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:01:54,336 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:01:54,344 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:01:59,356 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:01:59,356 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:01:59,360 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:01:59,361 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:01:59,361 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:02:10,484 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:10,485 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:02:10,491 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:02:10,494 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:10,494 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:02:12,947 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:12,948 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:02:12,952 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:02:12,954 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:12,954 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:02:31,981 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:31,981 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:02:31,988 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:02:31,990 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:31,990 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:02:34,969 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:34,969 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:02:34,973 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:02:34,975 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:34,975 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:02:36,758 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:36,758 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:02:36,764 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:02:36,766 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:36,766 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:02:39,442 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:39,443 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:02:39,446 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:02:39,448 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:39,448 [Worker-1071] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:02:41,478 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:41,479 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:02:41,483 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:02:41,484 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:41,484 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:02:53,073 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:53,073 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:02:53,079 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:02:53,080 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:02:53,081 [Worker-1057] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:04:12,650 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:04:12,653 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:04:12,658 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:04:12,660 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:04:12,660 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\zuul-gateway\src\test\resources
+2019-12-02 11:04:32,376 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:04:32,387 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:04:32,405 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:04:32,406 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:04:32,406 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:05:03,950 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:03,951 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:05:03,952 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:05:03,953 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:03,954 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:05:06,926 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:06,927 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:05:06,928 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:05:06,929 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:06,929 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:05:23,662 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:23,663 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:05:23,664 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:05:23,665 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:23,665 [Worker-1076] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:05:43,012 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:43,012 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:05:43,014 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:05:43,016 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:43,016 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:05:53,403 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:53,404 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:05:53,405 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:05:53,407 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:05:53,407 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:06:03,240 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:03,242 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:06:03,244 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:06:03,246 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:03,246 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:06:11,140 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:11,141 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:06:11,142 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:06:11,144 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:11,144 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:06:18,900 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:18,900 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:06:18,901 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:06:18,903 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:18,903 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:06:40,527 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:40,528 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:06:40,529 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:06:40,531 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:40,532 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:06:51,544 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:51,545 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:06:51,547 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:06:51,548 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:06:51,549 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:07:54,186 [Worker-1077] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cognizant:Vehicle_RS-service:0.0.1-SNAPSHOT @ C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\pom.xml.
+2019-12-02 11:07:56,024 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:07:56,024 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:07:56,024 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:07:56,025 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:07:56,026 [Worker-1077] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:08:02,460 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:08:02,461 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:08:02,462 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:08:02,470 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:08:02,471 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:08:34,295 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:08:34,296 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:08:34,297 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:08:34,298 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:08:34,298 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:08:59,982 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:08:59,982 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:08:59,983 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:08:59,984 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:08:59,984 [Worker-1062] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:09:37,339 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:09:37,339 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:09:37,342 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:09:37,344 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:09:37,344 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\authentication-service\src\test\resources
+2019-12-02 11:11:10,627 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:11:10,627 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:11:10,631 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:11:10,634 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:11:10,635 [Worker-1078] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:11:21,185 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:11:21,186 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:11:21,189 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:11:21,191 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:11:21,191 [Worker-1073] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:11:40,085 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:11:40,085 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:11:40,088 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:11:40,090 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:11:40,090 [Worker-1074] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:13:33,791 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:13:33,791 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:13:33,798 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:13:33,800 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:13:33,800 [Worker-1075] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 11:14:06,559 [Worker-1080] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:14:06,560 [Worker-1080] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 11:14:06,570 [Worker-1080] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 11:14:06,572 [Worker-1080] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 11:14:06,573 [Worker-1080] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 12:13:04,519 [Worker-1107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:13:04,592 [Worker-1107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:13:04,592 [Worker-1107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:13:04,618 [Worker-1107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:13:04,618 [Worker-1107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 12:13:48,192 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:13:48,192 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:13:48,192 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:13:48,195 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:13:48,195 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 12:14:39,134 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:14:39,134 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:14:39,134 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:14:39,136 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:14:39,136 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 12:17:11,170 [Worker-1103] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cognizant:Vehicle_RS-service:0.0.1-SNAPSHOT @ C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\pom.xml.
+2019-12-02 12:17:18,204 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:17:18,205 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:17:18,205 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:17:18,206 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:17:18,206 [Worker-1103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 12:17:19,398 [Worker-1105] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cognizant:Vehicle_RS-service:0.0.1-SNAPSHOT @ C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\pom.xml.
+2019-12-02 12:17:20,524 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:17:20,524 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:17:20,524 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:17:20,526 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:17:20,526 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 12:17:50,925 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:17:50,926 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:17:50,926 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:17:50,928 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:17:50,928 [Worker-1105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 12:18:57,040 [Worker-1102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:18:57,041 [Worker-1102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:18:57,041 [Worker-1102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:18:57,042 [Worker-1102] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:18:57,042 [Worker-1102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 12:19:09,300 [Worker-1107] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service
+2019-12-02 12:19:09,342 [Worker-1107] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2019-12-02 12:19:16,198 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:19:16,199 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 12:19:16,211 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 12:19:16,212 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 12:19:16,212 [Worker-1106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 17:24:26,694 [Worker-1252] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 17:24:26,850 [Worker-1252] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 17:24:26,875 [Worker-1252] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 17:24:26,908 [Worker-1252] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 17:24:26,909 [Worker-1252] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 17:29:31,249 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 17:29:31,250 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 17:29:31,254 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 17:29:31,256 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 17:29:31,256 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 17:29:41,358 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 17:29:41,358 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 17:29:41,361 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 17:29:41,362 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 17:29:41,363 [Worker-1258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\micro-service\Vehicle_RS-service\src\test\resources
+2019-12-02 18:14:51,063 [Worker-1283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:14:51,065 [Worker-1283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 18:14:51,111 [Worker-1283] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 18:14:51,209 [Worker-1283] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:14:51,241 [Worker-1283] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources
+2019-12-02 18:14:59,702 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:14:59,703 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 18:14:59,706 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 18:14:59,708 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:14:59,708 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources
+2019-12-02 18:15:06,335 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:15:06,337 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 18:15:06,341 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 18:15:06,342 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:15:06,343 [Worker-1284] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources
+2019-12-02 18:15:20,433 [Worker-1281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:15:20,435 [Worker-1281] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 18:15:20,440 [Worker-1281] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 18:15:20,442 [Worker-1281] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:15:20,442 [Worker-1281] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources
+2019-12-02 18:43:54,370 [Worker-1289] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:43:54,372 [Worker-1289] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 18:43:54,390 [Worker-1289] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 18:43:54,392 [Worker-1289] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:43:54,392 [Worker-1289] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources
+2019-12-02 18:44:38,629 [Worker-1294] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:44:38,630 [Worker-1294] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 18:44:38,634 [Worker-1294] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 18:44:38,794 [Worker-1294] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 18:44:38,794 [Worker-1294] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources
+2019-12-02 19:33:22,531 [Worker-1312] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 19:33:22,533 [Worker-1312] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 19:33:22,552 [Worker-1312] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 19:33:22,554 [Worker-1312] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 19:33:22,555 [Worker-1312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources
+2019-12-02 19:33:55,396 [Worker-1308] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 19:33:55,397 [Worker-1308] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-02 19:33:55,400 [Worker-1308] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-02 19:33:55,401 [Worker-1308] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-02 19:33:55,401 [Worker-1308] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\799378\Desktop\MFRP\Vehicle_registration_System\monolithic_services\Vehicle_RS\src\test\resources

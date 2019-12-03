@@ -26,7 +26,7 @@
 				<h6>Booking End Date</h6>
 				<p>{{bookingsService.bookings.bookingEnd| date:'mediumDate'}}</p>
 			</div>
-			<div class="ml-auto">
+			<div class="ml-auto" >
 				<button type="button" class="btn btn-danger"
 					(click)="this.vehicleService.removeFromBookings(bookingsService.bookings.vehicle.id)"> <i
 						class="material-icons md-30 white "> delete_forever </i>Cancel Booking

@@ -16,6 +16,8 @@ export class LoginComponent implements OnInit {
   constructor(private fb:FormBuilder,private authService:AuthServiceService,public router:Router,private vehicleService:VehicleServiceService) { }
 
   ngOnInit() {
+    this.authService.userStatus = false;
+    this.authService.validCredentials = true;
     this.loginForm = this.fb.group({
       username: ['',[ Validators.required]],
       password: ['',[Validators.required]]

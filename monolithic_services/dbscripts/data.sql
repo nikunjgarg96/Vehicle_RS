@@ -34,7 +34,7 @@ CREATE TABLE `booking` (
   KEY `vehicle_booking_idx` (`bk_vh_id`),
   CONSTRAINT `user_booking` FOREIGN KEY (`bk_us_id`) REFERENCES `user` (`us_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `vehicle_booking` FOREIGN KEY (`bk_vh_id`) REFERENCES `vehicle` (`vh_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,7 +43,6 @@ CREATE TABLE `booking` (
 
 LOCK TABLES `booking` WRITE;
 /*!40000 ALTER TABLE `booking` DISABLE KEYS */;
-INSERT INTO `booking` VALUES (22,1,1,'2019-11-19','2020-02-14',26100);
 /*!40000 ALTER TABLE `booking` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -91,7 +90,7 @@ CREATE TABLE `user` (
   `us_branch` varchar(5) NOT NULL,
   `us_status` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`us_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -100,7 +99,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'user1','Nikunj','Garg',23,'Male',9997061413,'nikunj.garg96@gmail.com','$2a$10$R/lZJuT9skteNmAku9Y7aeutxbOKstD5xE5bHOf74M2PHZipyt3yK','lkjh','A'),(2,'admin1','vehicle','RS',12,'Female',9876543211,'jhbfg@sdjkhgb.com','$2a$10$R/lZJuT9skteNmAku9Y7aeutxbOKstD5xE5bHOf74M2PHZipyt3yK','dkjf','A'),(3,'nik','kjh','kjh',32,'Male',7894561231,'fsd@sdf.com','$2a$10$R/lZJuT9skteNmAku9Y7aeutxbOKstD5xE5bHOf74M2PHZipyt3yK','sd','A'),(4,'pra','praveen','pea',18,'Male',9876543210,'fsd@sdf.com','$2a$10$R/lZJuT9skteNmAku9Y7aeutxbOKstD5xE5bHOf74M2PHZipyt3yK','sd','A'),(5,'nikunj','nik','nik',21,'Male',3333333333,'hcv','$2a$10$pGrBk5UeBUILjj1rj0ULKeLFycbCN09TbTrOruNOUyL6bfN72DOO6','123','P'),(6,'pavan','pavan','Swaroo[p',22,'Male',9790650572,'ticktockstarPavan@hello.me','$2a$10$O8q0Ip1MqA6nMutx41b1YudOGf2Jy9Ctf.4V/.ONsmqTAHAqTVfKC','amma','P'),(8,'user5','Sankalp','Khawade',22,'Male',9898989898,'asd@a1.com','$2a$10$R/lZJuT9skteNmAku9Y7aeutxbOKstD5xE5bHOf74M2PHZipyt3yK','GCH','A');
+INSERT INTO `user` VALUES (1,'user1','Nikunj','Garg',23,'Male',9997061413,'nikunj.garg96@gmail.com','$2a$10$R/lZJuT9skteNmAku9Y7aeutxbOKstD5xE5bHOf74M2PHZipyt3yK','lkjh','A'),(2,'admin1','vehicle','RS',12,'Female',9876543211,'jhbfg@sdjkhgb.com','$2a$10$R/lZJuT9skteNmAku9Y7aeutxbOKstD5xE5bHOf74M2PHZipyt3yK','dkjf','A'),(5,'nikunj','Nikunj','Garg',21,'Male',9876543210,'hcv@jhg.com','$2a$10$pGrBk5UeBUILjj1rj0ULKeLFycbCN09TbTrOruNOUyL6bfN72DOO6','123','P'),(6,'pavan','Pavan','Swaroop',22,'Male',9790650572,'ticktockstarPavan@hello.me','$2a$10$R/lZJuT9skteNmAku9Y7aeutxbOKstD5xE5bHOf74M2PHZipyt3yK','amma','P'),(9,'jojo','Random','User',19,'Female',9876543210,'jhfhgf@jhgjh.com','$2a$10$Wmfu8Gs.Lj63klSi2FgZweVw/wpZlV7GoFG1jqV8aFIEKVHjU8DN.','COGN','A'),(10,'asdasd','asd','asd',76,'Male',7896541230,'asd','$2a$10$0E56ExWEtFglaRtz477Hb.ZB6pOlLNpCW2oUOEcMUYV70VWsCTYxa','asd','A');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -120,7 +119,7 @@ CREATE TABLE `user_role` (
   KEY `fk_user_role_role1_idx` (`ur_ro_id`),
   CONSTRAINT `fk_user_role_role1` FOREIGN KEY (`ur_ro_id`) REFERENCES `role` (`ro_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
   CONSTRAINT `fk_user_role_user` FOREIGN KEY (`ur_us_id`) REFERENCES `user` (`us_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -129,7 +128,7 @@ CREATE TABLE `user_role` (
 
 LOCK TABLES `user_role` WRITE;
 /*!40000 ALTER TABLE `user_role` DISABLE KEYS */;
-INSERT INTO `user_role` VALUES (1,1,1),(2,2,2),(3,3,1),(4,4,1),(5,5,1),(6,6,1),(8,8,1);
+INSERT INTO `user_role` VALUES (1,1,1),(2,2,2),(5,5,1),(6,6,1),(9,9,1),(10,10,1);
 /*!40000 ALTER TABLE `user_role` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -155,7 +154,7 @@ CREATE TABLE `vehicle` (
   `vh_service_due_date` date NOT NULL,
   `vh_status` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`vh_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=63 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -164,7 +163,7 @@ CREATE TABLE `vehicle` (
 
 LOCK TABLES `vehicle` WRITE;
 /*!40000 ALTER TABLE `vehicle` DISABLE KEYS */;
-INSERT INTO `vehicle` VALUES (1,'Audi A6','https://images.unsplash.com/photo-1532974297617-c0f05fe48bff?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80','UK06AG1111','4','Petrol',300,1,'poiuy','2020-03-15','2017-03-10','2017-09-15',1),(2,'Ferrari F430','https://images.unsplash.com/photo-1555472287-01af5165c01c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80','MH14SY0007','4','Gas',150,1,'yolo','2020-03-25','2017-02-15','2017-03-24',0),(3,'Aston Martin','https://images.unsplash.com/photo-1556213313-fc5be959c4a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80','UK06AG1111','2','Petrol',300,0,'poiuy','2017-03-15','2017-03-10','2017-09-15',0),(4,'Tesla Model S','https://images.unsplash.com/photo-1491497875599-6c21f33c7e19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=661&q=80','UK06AG1111','4','Electric',300,0,'poiuy','2020-03-15','2017-03-10','2017-09-15',0),(9,'Porsche 911','https://images.unsplash.com/photo-1500509178313-4eaf2867f500?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80','NG06S0608','2','Petrol',169,1,'Amma','2021-11-09','2019-11-28','2019-11-29',0),(10,'Audi R8','https://images.unsplash.com/photo-1556391362-d3d11d98e510?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80','PS98G0904','2','Gas',650,1,'Baboi','2023-01-01','2019-11-27','2019-11-29',0),(11,'Ambassador','https://images.unsplash.com/photo-1539927798856-fa5ba0425b5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80','SS69K4200','4','Petrol',1,1,'Bang','2019-12-07','2015-11-28','2016-11-28',0),(23,'Land Rover','https://images.unsplash.com/photo-1539703061-473d7576d772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80','SS55SS5555','6','Diesel',60,1,'Paris','2019-12-20','2019-11-07','2019-12-18',0),(24,'Jeep','https://images.unsplash.com/photo-1511527844068-006b95d162c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80','WS99FU4862','6','Petrol',112,0,'CAL','2019-12-12','2019-11-14','2019-11-28',0);
+INSERT INTO `vehicle` VALUES (1,'Audi A6','https://images.unsplash.com/photo-1532974297617-c0f05fe48bff?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80','UK06AG1111','4','Petrol',300,1,'poiuy','2020-03-15','2017-03-10','2017-09-15',0),(2,'Ferrari F430','https://images.unsplash.com/photo-1555472287-01af5165c01c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80','MH14SY0007','4','Gas',150,1,'yolo','2020-03-25','2017-02-15','2017-03-24',0),(3,'Aston Martin','https://images.unsplash.com/photo-1556213313-fc5be959c4a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80','UK06AG1111','2','Petrol',300,1,'poiuy','2020-07-16','2017-03-10','2017-09-15',0),(4,'Tesla Model S','https://images.unsplash.com/photo-1491497875599-6c21f33c7e19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=661&q=80','UK06AG1111','4','Electric',300,0,'poiuy','2020-03-15','2017-03-10','2017-09-15',0),(9,'Porsche 911','https://images.unsplash.com/photo-1500509178313-4eaf2867f500?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80','NG06S0608','2','Petrol',169,1,'Amma','2021-11-09','2019-11-28','2019-11-29',0),(10,'Audi R8','https://images.unsplash.com/photo-1556391362-d3d11d98e510?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80','PS98G0904','2','Gas',650,1,'Baboi','2023-01-01','2019-11-27','2019-11-29',0),(11,'Ambassador','https://images.unsplash.com/photo-1539927798856-fa5ba0425b5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80','SS69K4200','4','Petrol',12,1,'Bang','2019-11-13','2015-11-28','2016-11-28',0),(23,'Land Rover','https://images.unsplash.com/photo-1539703061-473d7576d772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80','SS55SS5555','6','Diesel',60,1,'Paris','2019-12-20','2019-11-07','2019-12-18',0),(24,'Jeep','https://images.unsplash.com/photo-1511527844068-006b95d162c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80','WS99FU4862','6','Petrol',112,0,'CAL','2019-12-12','2019-11-14','2019-11-28',0);
 /*!40000 ALTER TABLE `vehicle` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -177,4 +176,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-11-29 20:07:37
+-- Dump completed on 2019-12-02 15:16:31
